@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.App ul{
+  display: flex;
+  padding: 10px;
+  list-style: none;
+
+}
+.App li{
+  padding: 10px;
+}
+
+.App .container{
+  display: flex;
+  flex-direction: column;  
+}
+.App img{
+  height: 500px;
+  width: 500px;
+}
+.App .line {
+  display: flex;
+  padding: 10px;
+}
+
+.card {
+  padding: 10px;
+  background-color: bisque;
+}
