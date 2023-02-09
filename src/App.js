@@ -1,15 +1,14 @@
-
-import './App.css';
-import Navigation from './componets/Navigation/Navigation';
-import Player from './componets/Player/Player';
+import "./App.css";
+import Footer from "./componets/Footer";
+import Main from "./componets/Main";
+import Navigation from "./componets/Navigation";
 function App() {
   return (
     <div className="App">
-      
-      <Navigation/>
-      <Player/>
+      <Navigation />
+      <Main />
+      <Footer />
     </div>
   );
 }
-
 export default App;
